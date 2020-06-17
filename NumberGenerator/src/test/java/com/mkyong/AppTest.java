@@ -9,13 +9,12 @@ public class AppTest {
 	public void testLengthOfTheUniqueKey() {
 
 		App obj = new App();
-		Assert.assertEquals(36, obj.generateUniqueKey().length());
-
+Assert.assertEquals(36, obj.generateUniqueKey().length());
 	}
 	@Test
 	public void sampletestpass() {
 		int a = 1;
 		int b = 2;
-		assertTrue(a + b == 3);
+assertTrue(a + b == 3);
 	}
 }
