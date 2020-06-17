@@ -11,4 +11,12 @@ public class AppTest {
 		App obj = new App();
 		Assert.assertEquals(36, obj.generateUniqueKey().length());
 	}
+	
+	@Test
+	public void testLengthOfTheUniqueKey() {
+
+		App obj = new App();
+		Assert.assertEquals(16, obj.generateUniqueKey().length());
+	}
+
 }
