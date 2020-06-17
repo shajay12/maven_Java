@@ -16,6 +16,6 @@ public class AppTest {
 	public void sampletestpass() {
 		int a = 1;
 		int b = 2;
-		assertTrue(a + b == 3);
+		Assert(a + b == 3);
 	}
 }
