@@ -12,4 +12,10 @@ public class AppTest {
 		Assert.assertEquals(36, obj.generateUniqueKey().length());
 
 	}
+	@Test
+	public void sampletestpass() {
+		int a = 1;
+		int b = 2;
+		assertTrue(a + b == 3);
+	}
 }
