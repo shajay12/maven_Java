@@ -1,6 +1,6 @@
 package com.mkyong;
 
-import org.junit.Assert;
+import org.junit.Assert.*;
 import org.junit.Test;
 
 public class AppTest {
@@ -16,6 +16,6 @@ public class AppTest {
 	public void sampletestpass() {
 		int a = 1;
 		int b = 2;
-		Assert(a + b == 3);
+		assertTrue(a + b == 3);
 	}
 }
